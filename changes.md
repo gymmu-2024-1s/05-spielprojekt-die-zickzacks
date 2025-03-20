@@ -12,3 +12,7 @@
 - Contributors eingegeben
 - Spielname verändert
 - Spielidee beschrieben
+
+20.03.25
+- Tiled und GIMP heruntergeladen
+- Map ein wenig verändert
