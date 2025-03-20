@@ -6,3 +6,9 @@
 - Die Datei `changes.md` hinzugefügt.
 - Einfache Präsentation mit `pres.html` hinzugefügt.
 - README.md erstellt.
+
+  17.03.25
+
+- Contributors eingegeben
+- Spielname verändert
+- Spielidee beschrieben
