@@ -105,6 +105,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     // Ereignis "update-hp" los. Das wird von einer anderen Szene aufgeschnappt,
     // und die Lebenspunkte werden angepasst. So können wir einfach mit einer
     // anderen Szene kommunizieren, ohne das wir diese kennen müssen.
+
     EVENTS.emit("update-hp", this.hp)
   }
 
@@ -120,14 +121,11 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     if (value == null) value = 0
     this.hp = this.hp - value
     if (this.hp <= 0) {
-      // TODO: Game-Over Mechanik implementieren.
       this.hp = 0
     }
 
-    // Gleich wie bei `heal()`
     EVENTS.emit("update-hp", this.hp)
   }
-
   /**
    * Fügt dem Spieler einen Schlüssel hinzu.
    *
@@ -173,4 +171,3 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     }
   }
 }
-

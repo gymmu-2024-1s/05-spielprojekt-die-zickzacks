@@ -13,6 +13,13 @@
 - Spielname verändert
 - Spielidee beschrieben
 
-20.03.25
+  20.03.25
+
 - Tiled und GIMP heruntergeladen
 - Map ein wenig verändert
+
+  24.03.25
+
+- Spielidee geändert
+- Neue Spritesheets gezeichnet
+- Versucht neue Spielmechaniken einzubauen
