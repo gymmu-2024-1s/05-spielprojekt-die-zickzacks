@@ -105,7 +105,6 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     // Ereignis "update-hp" los. Das wird von einer anderen Szene aufgeschnappt,
     // und die Lebenspunkte werden angepasst. So können wir einfach mit einer
     // anderen Szene kommunizieren, ohne das wir diese kennen müssen.
-
     EVENTS.emit("update-hp", this.hp)
   }
 
