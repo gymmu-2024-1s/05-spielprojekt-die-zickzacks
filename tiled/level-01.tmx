@@ -58,8 +58,6 @@
   <object id="20" gid="1" x="294.667" y="222" width="32" height="32"/>
   <object id="21" gid="1" x="276" y="251.333" width="32" height="32"/>
   <object id="22" gid="1" x="257.333" y="248.667" width="32" height="32"/>
-  <object id="23" gid="1" x="96.5" y="256.5" width="32" height="32"/>
-  <object id="24" gid="1" x="129.5" y="257.5" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="4" name="Items">
   <object id="1" name="Mushroom" gid="3" x="160" y="256" width="32" height="32">
