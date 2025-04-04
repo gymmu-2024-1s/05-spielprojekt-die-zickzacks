@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(10, 235, 235);
+  background-color: rgb(77, 170, 236);
   color: white;
   padding: 0;
   margin: 0;
@@ -31,7 +31,7 @@ main > section {
 }
 
 main > section:nth-child(2n-1) {
-  background-color: rgb(4, 221, 249);
+  background-color: rgb(54, 142, 189);
 }
 
 main > section > h2 {
@@ -40,7 +40,7 @@ main > section > h2 {
 
 .start-btn {
   padding: 1.5rem;
-  background-color: rgb(0, 242, 255);
+  background-color: rgb(251, 10, 10);
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -48,7 +48,7 @@ main > section > h2 {
 }
 
 .start-btn:hover {
-  box-shadow: 2px 2px 5px rgb(4, 249, 245);
+  box-shadow: 2px 2px 5px rgb(239, 11, 11);
 }
 
 .margin-tb {
