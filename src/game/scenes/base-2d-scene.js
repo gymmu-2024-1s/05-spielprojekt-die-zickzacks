@@ -167,7 +167,7 @@ export default class Base2DScene extends Phaser.Scene {
   collideenemy(actor, enemy) {
     enemy.destroy()
 
-    actor.damage(10)
+    actor.damage(20)
   }
 
   /**

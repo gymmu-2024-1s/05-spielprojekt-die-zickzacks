@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="25">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="26">
  <editorsettings>
   <export target="../public/assets/maps/map-level-01.json" format="json"/>
  </editorsettings>
@@ -31,9 +31,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,2,2,2,2,2,2,2,8,8,8,0,8,8,8,6,0,0,
-0,0,0,2,2,5,6,6,6,6,0,0,0,0,0,0,0,6,0,0,
-0,0,0,2,2,0,6,6,6,6,0,0,0,0,0,0,0,6,6,0,
-0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,
+0,0,0,2,2,5,1,1,1,1,0,0,0,0,0,0,0,6,0,0,
+0,0,0,2,2,0,1,1,1,1,0,0,0,0,0,0,0,6,6,0,
+0,0,0,2,2,0,0,0,0,1,0,0,0,0,0,0,0,0,6,0,
 0,0,0,2,2,0,0,0,0,0,2,2,2,2,2,2,0,5,6,0,
 0,0,0,2,2,5,5,5,5,5,2,2,6,6,6,6,6,6,5,0,
 0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,
@@ -45,19 +45,7 @@
  <objectgroup id="3" name="SpawnPoints">
   <object id="8" name="SpawnPlayer" x="192" y="288"/>
   <object id="9" name="NPC" x="416" y="224"/>
-  <object id="10" gid="1" x="287.333" y="254" width="32" height="32"/>
-  <object id="11" gid="1" x="252.667" y="259.333" width="32" height="32"/>
-  <object id="12" gid="1" x="288" y="259.333" width="32" height="32"/>
-  <object id="13" gid="1" x="224" y="257.333" width="32" height="32"/>
-  <object id="14" gid="1" x="192.667" y="257.333" width="32" height="32"/>
-  <object id="15" gid="1" x="198.667" y="229.333" width="32" height="32"/>
-  <object id="16" gid="1" x="220.667" y="224" width="32" height="32"/>
-  <object id="17" gid="1" x="198.667" y="222" width="32" height="32"/>
-  <object id="18" gid="1" x="262" y="226" width="32" height="32"/>
-  <object id="19" gid="1" x="246" y="222" width="32" height="32"/>
-  <object id="20" gid="1" x="294.667" y="222" width="32" height="32"/>
-  <object id="21" gid="1" x="276" y="251.333" width="32" height="32"/>
-  <object id="22" gid="1" x="257.333" y="248.667" width="32" height="32"/>
+  <object id="25" name="NPC" x="242" y="206" width="24" height="30.6667"/>
  </objectgroup>
  <objectgroup id="4" name="Items">
   <object id="1" name="Mushroom" gid="3" x="160" y="256" width="32" height="32">
