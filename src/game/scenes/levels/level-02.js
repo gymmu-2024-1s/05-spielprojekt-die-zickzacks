@@ -90,4 +90,11 @@ export default class Level02 extends Base2DScene {
       // })
     }
   }
+  update() {
+    super.update()
+
+    if (this.player.hp <= 0) {
+      this.scene.start("GameOverscene")
+    }
+  }
 }

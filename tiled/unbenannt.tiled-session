@@ -1,5 +1,5 @@
 {
-    "activeFile": "level-04.tmx",
+    "activeFile": "level-02.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -21,14 +21,14 @@
         },
         "level-01.tmx": {
             "expandedObjectLayers": [
-                3,
-                4
+                4,
+                3
             ],
             "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 455.66666666666663,
-                "y": 216.99999999999997
+                "x": 354.3333333333333,
+                "y": 239.66666666666669
             }
         },
         "level-02.tmx": {
@@ -36,23 +36,23 @@
                 4
             ],
             "scale": 1.5,
-            "selectedLayer": 4,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 427,
-                "y": 83.66666666666663
+                "x": 47.66666666666666,
+                "y": 304.33333333333337
             }
         },
         "level-03.tmx": {
             "expandedObjectLayers": [
-                5,
+                4,
                 3,
-                4
+                5
             ],
             "scale": 0.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 575,
-                "y": 173
+                "x": 801,
+                "y": 479
             }
         },
         "level-03.tmx#tileset": {
@@ -62,8 +62,8 @@
             "scale": 0.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 575,
-                "y": 173
+                "x": 695,
+                "y": 211
             }
         },
         "level-04.tmx#tileset": {
@@ -84,10 +84,10 @@
     ],
     "project": "unbenannt.tiled-project",
     "recentFiles": [
-        "level-04.tmx",
-        "C:/Users/Anthony Lopez/Desktop/Informatik/05-spielprojekt-die-zickzacks/public/assets/maps/map-level-04.json",
         "level-01.tmx",
+        "level-04.tmx",
+        "level-03.tmx",
         "level-02.tmx",
-        "level-03.tmx"
+        "C:/Users/Anthony Lopez/Desktop/Informatik/05-spielprojekt-die-zickzacks/public/assets/maps/map-level-04.json"
     ]
 }
