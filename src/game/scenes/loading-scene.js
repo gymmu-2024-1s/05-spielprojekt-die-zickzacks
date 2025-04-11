@@ -46,7 +46,7 @@ export default class LoadingScene extends Phaser.Scene {
     this.createAnimations()
 
     this.add
-      .text(320, 240, "Press SPACE to start the Game.")
+      .text(320, 240, "Drücke die Leertaste um das Spiel zu starten.")
       .setOrigin(0.5, 0.5)
   }
 
