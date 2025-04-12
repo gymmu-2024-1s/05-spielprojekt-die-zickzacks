@@ -90,4 +90,17 @@ export default class Level01 extends Base2DScene {
       // })
     }
   }
+
+  /**
+   * @override Hier wird die Funktionalität der Base2DScene-Klasse überschrieben.
+   *
+   * Wenn der Spieler 0 Leben hat, wird die GameOverScene gestartet.
+   */
+  update() {
+    super.update()
+
+    if (this.player.hp <= 0) {
+      this.scene.start("GameOverscene")
+    }
+  }
 }

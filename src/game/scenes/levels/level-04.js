@@ -3,9 +3,9 @@ import Mushroom from "../../gameObjects/pickups/mushroom"
 import Base2DScene from "../base-2d-scene"
 
 /**
- * Spiellogik für das Level03.
+ * Spiellogik für das Level04.
  */
-export default class Level03 extends Base2DScene {
+export default class Level04 extends Base2DScene {
   /**
    * Der Konstuktor wird von Phaser verwendet um die Szene zu erstellen.
    */
@@ -14,7 +14,7 @@ export default class Level03 extends Base2DScene {
     // Optionen an die Szene übergeben. Das brauchen wir damit Phaser einen
     // Namen/Schlüssel für die Szene hat. Damit können wir später die Szene
     // wechseln, wenn wir das brauchen.
-    super({ key: "level-03" })
+    super({ key: "level-04" })
   }
 
   /**
@@ -26,8 +26,8 @@ export default class Level03 extends Base2DScene {
     // unter dem die Karte gespeichert wird. Der zweite Parameter ist die
     // Kartendatei mit allen Daten drin.
     this.load.tilemapTiledJSON(
-      "map-level-03",
-      "./assets/maps/map-level-03.json",
+      "map-level-04",
+      "./assets/maps/map-level-04.json",
     )
   }
 
@@ -38,7 +38,7 @@ export default class Level03 extends Base2DScene {
     // Wir müssen hier die `create`-Methode der Klasse `Base2DScene` aufrufen,
     // denn dort ist bereits beschrieben wie die Spielwelt nach der Kartendatei
     // erstellt werden muss.
-    super.create("map-level-03")
+    super.create("map-level-04")
 
     // TODO: Möchten wir zusätzliche Layers von der Karte ertellen lassen, oder
     // spezifische Spielobjekte erstellen, dann können wir das hier machen.
@@ -65,7 +65,7 @@ export default class Level03 extends Base2DScene {
     // muss dies in `Base2DScene` angepasst werden.
     if (item instanceof Flower) {
       // Das Objekt ist von der Klasse `Flower`
-      this.player.addKey("level-04")
+      this.player.addKey("level-05")
       this.player.increaseSpeed(200)
       this.player.heal(item.props.restoreHp || 0)
     } else if (item instanceof Mushroom) {
