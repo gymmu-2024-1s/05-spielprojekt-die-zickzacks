@@ -72,7 +72,7 @@ export default class Level02 extends Base2DScene {
       // Das Objekt ist von der Klasse `Mushroom`
       this.player.decreaseSpeed(100)
       this.player.damage(item.props.damageHp || 0)
-
+      this.cameras.main.shake(5000, 0.02)
       // TODO: Aktivieren Sie das hier, wenn ein Effekt über eine gewisse Zeit
       // passieren soll.
       // Hier wird der Spieler halb so gross, und mit jedem Frame wird er wieder
