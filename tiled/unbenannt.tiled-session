@@ -1,4 +1,8 @@
 {
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
     "activeFile": "level-02.tmx",
     "expandedProjectPaths": [
         "."
@@ -9,11 +13,16 @@
             "scaleInDock": 1
         },
         "C:/Users/Anthony Lopez/Desktop/Informatik/05-spielprojekt-die-zickzacks/public/assets/maps/map-level-04.json": {
+            "expandedObjectLayers": [
+                4,
+                3,
+                5
+            ],
             "scale": 0.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 575,
-                "y": 173
+                "x": 801,
+                "y": 479
             }
         },
         "C:/Users/Anthony Lopez/Desktop/Informatik/05-spielprojekt-die-zickzacks/public/assets/maps/map-level-04.json#tileset": {
@@ -38,8 +47,8 @@
             "scale": 1.5,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 47.66666666666666,
-                "y": 304.33333333333337
+                "x": 87.66666666666666,
+                "y": 316.99999999999994
             }
         },
         "level-03.tmx": {
@@ -84,10 +93,10 @@
     ],
     "project": "unbenannt.tiled-project",
     "recentFiles": [
+        "C:/Users/Anthony Lopez/Desktop/Informatik/05-spielprojekt-die-zickzacks/public/assets/maps/map-level-04.json",
         "level-01.tmx",
         "level-04.tmx",
         "level-03.tmx",
-        "level-02.tmx",
-        "C:/Users/Anthony Lopez/Desktop/Informatik/05-spielprojekt-die-zickzacks/public/assets/maps/map-level-04.json"
+        "level-02.tmx"
     ]
 }
