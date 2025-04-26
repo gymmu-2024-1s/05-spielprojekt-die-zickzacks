@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="16">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="18">
  <editorsettings>
   <export target="../public/assets/maps/map-level-03.json" format="json"/>
  </editorsettings>
@@ -170,5 +170,7 @@
     <property name="needKey" value="level-04"/>
    </properties>
   </object>
+  <object id="16" name="NPC" x="1249" y="627.5" width="26" height="25"/>
+  <object id="17" name="NPC" x="525" y="381.5" width="26" height="25"/>
  </objectgroup>
 </map>
