@@ -98,7 +98,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     if (value == null) value = 0
     this.hp = this.hp + value
     if (this.hp > this.maxHp) {
-      this.hp = this.mapHp
+      this.hp = 100
     }
 
     // Die Lebenspunkte des Spielers wurden verändert, also schicken wir das
@@ -120,14 +120,11 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     if (value == null) value = 0
     this.hp = this.hp - value
     if (this.hp <= 0) {
-      // TODO: Game-Over Mechanik implementieren.
       this.hp = 0
     }
 
-    // Gleich wie bei `heal()`
     EVENTS.emit("update-hp", this.hp)
   }
-
   /**
    * Fügt dem Spieler einen Schlüssel hinzu.
    *

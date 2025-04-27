@@ -18,7 +18,10 @@ export default class LoadingScene extends Phaser.Scene {
       frameWidth: 32,
       frameHeight: 32,
     })
-
+    this.load.spritesheet("Npc", "./assets/Npc.png", {
+      frameWidth: 32,
+      frameHeight: 32,
+    })
     // Lade das Tileset für die Karten und die Objekte.
     this.load.image("tileset", "./assets/tileset.png")
 
@@ -46,7 +49,7 @@ export default class LoadingScene extends Phaser.Scene {
     this.createAnimations()
 
     this.add
-      .text(320, 240, "Press SPACE to start the Game.")
+      .text(320, 240, "Drücke die Leertaste um das Spiel zu starten.")
       .setOrigin(0.5, 0.5)
   }
 
@@ -68,8 +71,28 @@ export default class LoadingScene extends Phaser.Scene {
     })
 
     this.anims.create({
+      key: "Npc_idle",
+      frames: this.anims.generateFrameNumbers("Npc", {
+        start: 1,
+        end: 1,
+      }),
+      frameRate: 10,
+      repeat: -1,
+    })
+
+    this.anims.create({
       key: "player_right",
       frames: this.anims.generateFrameNumbers("player", {
+        start: 6,
+        end: 8,
+      }),
+      frameRate: 10,
+      repeat: -1,
+    })
+
+    this.anims.create({
+      key: "Npc_right",
+      frames: this.anims.generateFrameNumbers("Npc", {
         start: 6,
         end: 8,
       }),
@@ -86,6 +109,17 @@ export default class LoadingScene extends Phaser.Scene {
       frameRate: 10,
       repeat: -1,
     })
+
+    this.anims.create({
+      key: "Npc_left",
+      frames: this.anims.generateFrameNumbers("Npc", {
+        start: 3,
+        end: 5,
+      }),
+      frameRate: 10,
+      repeat: -1,
+    })
+
     this.anims.create({
       key: "player_up",
       frames: this.anims.generateFrameNumbers("player", {
@@ -95,9 +129,30 @@ export default class LoadingScene extends Phaser.Scene {
       frameRate: 10,
       repeat: -1,
     })
+
+    this.anims.create({
+      key: "Npc_up",
+      frames: this.anims.generateFrameNumbers("Npc", {
+        start: 9,
+        end: 11,
+      }),
+      frameRate: 10,
+      repeat: -1,
+    })
+
     this.anims.create({
       key: "player_down",
       frames: this.anims.generateFrameNumbers("player", {
+        start: 0,
+        end: 2,
+      }),
+      frameRate: 10,
+      repeat: -1,
+    })
+
+    this.anims.create({
+      key: "Npc_down",
+      frames: this.anims.generateFrameNumbers("Npc", {
         start: 0,
         end: 2,
       }),

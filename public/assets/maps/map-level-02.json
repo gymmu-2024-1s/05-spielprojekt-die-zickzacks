@@ -29,21 +29,21 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 8, 8, 8, 8, 8, 0, 8, 6, 6, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 0, 0, 0, 0, 0, 6, 6, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 6, 5, 0, 0, 0, 6, 2, 6, 6, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 5, 5, 6, 0, 0, 6, 6, 6, 6, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 6, 5, 5, 0, 0, 2, 6, 6, 6, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 5, 6, 5, 0, 0, 6, 6, 6, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 5, 6, 2, 0, 0, 0, 0, 6, 6, 0, 0, 0,
-            6, 6, 6, 6, 6, 6, 0, 0, 5, 5, 6, 0, 0, 0, 0, 2, 6, 0, 0, 0,
-            6, 0, 0, 0, 0, 6, 6, 6, 2, 2, 2, 0, 0, 0, 0, 6, 2, 2, 0, 0,
-            5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 2, 2, 0, 0,
-            2, 0, 2, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 2, 0, 0, 0,
-            2, 0, 2, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0,
-            2, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            2, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            2, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 2, 2, 2, 2, 2, 0, 0, 5, 5, 8, 8, 8, 8, 8, 0, 8, 6, 6, 2,
+            2, 2, 7, 2, 2, 2, 2, 2, 5, 5, 5, 5, 0, 0, 0, 0, 0, 6, 6, 2,
+            2, 2, 2, 2, 1, 2, 2, 2, 2, 5, 6, 5, 0, 0, 0, 6, 1, 1, 1, 2,
+            2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1, 1, 0, 0, 6, 6, 1, 1, 2,
+            2, 2, 1, 1, 1, 1, 1, 1, 2, 5, 6, 5, 5, 0, 0, 2, 1, 6, 1, 2,
+            2, 2, 1, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 0, 2,
+            2, 2, 1, 2, 1, 1, 1, 1, 1, 6, 2, 0, 0, 0, 0, 6, 1, 2, 1, 2,
+            6, 6, 1, 1, 1, 1, 0, 5, 5, 5, 6, 0, 0, 0, 0, 2, 1, 2, 1, 2,
+            6, 0, 0, 0, 0, 1, 6, 6, 1, 1, 1, 0, 0, 0, 0, 6, 1, 2, 1, 2,
+            5, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 1, 1, 1, 1, 6, 1, 1, 1, 2,
+            2, 0, 2, 5, 5, 5, 5, 5, 6, 1, 1, 1, 6, 6, 6, 2, 1, 7, 0, 2,
+            2, 0, 2, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 2, 6, 0, 0, 2,
+            2, 0, 6, 0, 0, 0, 0, 0, 0, 2, 2, 6, 6, 1, 6, 6, 6, 0, 0, 2,
+            2, 0, 6, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2,
+            2, 2, 2, 2, 6, 6, 6, 6, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
          "height":15,
          "id":2,
          "name":"Obstacles",
@@ -69,6 +69,61 @@
                  "width":0,
                  "x":48,
                  "y":416
+                }, 
+                {
+                 "height":25,
+                 "id":15,
+                 "name":"NPC",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":26,
+                 "x":428.5,
+                 "y":113.5
+                }, 
+                {
+                 "height":28,
+                 "id":16,
+                 "name":"NPC",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":28,
+                 "x":559.333,
+                 "y":398
+                }, 
+                {
+                 "height":25,
+                 "id":20,
+                 "name":"NPC",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":26,
+                 "x":391.667,
+                 "y":252.167
+                }, 
+                {
+                 "height":25,
+                 "id":21,
+                 "name":"NPC",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":26,
+                 "x":179.667,
+                 "y":215.5
+                }, 
+                {
+                 "height":28,
+                 "id":23,
+                 "name":"NPC",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":28,
+                 "x":564,
+                 "y":90
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -90,14 +145,14 @@
                         {
                          "name":"damageHp",
                          "type":"int",
-                         "value":20
+                         "value":10
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":448,
-                 "y":288
+                 "x":378,
+                 "y":319.333333333333
                 }, 
                 {
                  "gid":3,
@@ -108,14 +163,14 @@
                         {
                          "name":"damageHp",
                          "type":"int",
-                         "value":20
+                         "value":10
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":448,
-                 "y":320
+                 "x":480,
+                 "y":447.333
                 }, 
                 {
                  "gid":3,
@@ -126,14 +181,14 @@
                         {
                          "name":"damageHp",
                          "type":"int",
-                         "value":20
+                         "value":10
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":416,
-                 "y":320
+                 "x":318,
+                 "y":286.667
                 }, 
                 {
                  "gid":3,
@@ -144,7 +199,7 @@
                         {
                          "name":"damageHp",
                          "type":"int",
-                         "value":20
+                         "value":10
                         }],
                  "rotation":0,
                  "type":"",
@@ -162,7 +217,7 @@
                         {
                          "name":"restoreHp",
                          "type":"int",
-                         "value":10
+                         "value":30
                         }],
                  "rotation":0,
                  "type":"",
@@ -174,49 +229,13 @@
                 {
                  "gid":4,
                  "height":32,
-                 "id":7,
-                 "name":"Flower",
-                 "properties":[
-                        {
-                         "name":"restoreHp",
-                         "type":"int",
-                         "value":10
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":384,
-                 "y":64
-                }, 
-                {
-                 "gid":4,
-                 "height":32,
-                 "id":8,
-                 "name":"Flower",
-                 "properties":[
-                        {
-                         "name":"restoreHp",
-                         "type":"int",
-                         "value":10
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":512,
-                 "y":64
-                }, 
-                {
-                 "gid":4,
-                 "height":32,
                  "id":9,
                  "name":"Flower",
                  "properties":[
                         {
                          "name":"restoreHp",
                          "type":"int",
-                         "value":10
+                         "value":30
                         }],
                  "rotation":0,
                  "type":"",
@@ -228,31 +247,13 @@
                 {
                  "gid":4,
                  "height":32,
-                 "id":10,
-                 "name":"Flower",
-                 "properties":[
-                        {
-                         "name":"restoreHp",
-                         "type":"int",
-                         "value":10
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":352,
-                 "y":256
-                }, 
-                {
-                 "gid":4,
-                 "height":32,
                  "id":11,
                  "name":"Flower",
                  "properties":[
                         {
                          "name":"restoreHp",
                          "type":"int",
-                         "value":10
+                         "value":30
                         }],
                  "rotation":0,
                  "type":"",
@@ -260,6 +261,24 @@
                  "width":32,
                  "x":32,
                  "y":288
+                }, 
+                {
+                 "gid":4,
+                 "height":32,
+                 "id":14,
+                 "name":"Flower",
+                 "properties":[
+                        {
+                         "name":"restoreHp",
+                         "type":"int",
+                         "value":30
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":359,
+                 "y":448
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -282,6 +301,11 @@
                          "name":"goToWorld",
                          "type":"string",
                          "value":"level-03"
+                        }, 
+                        {
+                         "name":"needKey",
+                         "type":"string",
+                         "value":"level-03"
                         }],
                  "rotation":0,
                  "type":"",
@@ -297,10 +321,10 @@
          "y":0
         }],
  "nextlayerid":6,
- "nextobjectid":13,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.11.0",
+ "tiledversion":"1.11.2",
  "tileheight":32,
  "tilesets":[
         {
