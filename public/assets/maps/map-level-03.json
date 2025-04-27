@@ -154,6 +154,28 @@
                  "width":30.6667,
                  "x":824.667,
                  "y":822
+                }, 
+                {
+                 "height":0,
+                 "id":18,
+                 "name":"NPC",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1266.66666666667,
+                 "y":616
+                }, 
+                {
+                 "height":0,
+                 "id":19,
+                 "name":"NPC",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1054.66666666667,
+                 "y":748
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -328,17 +350,6 @@
                 }, 
                 {
                  "height":25,
-                 "id":16,
-                 "name":"NPC",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":26,
-                 "x":1249,
-                 "y":627.5
-                }, 
-                {
-                 "height":25,
                  "id":17,
                  "name":"NPC",
                  "rotation":0,
@@ -355,7 +366,7 @@
          "y":0
         }],
  "nextlayerid":6,
- "nextobjectid":18,
+ "nextobjectid":20,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
