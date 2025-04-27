@@ -23,3 +23,13 @@
 - Spielidee geändert
 - Neue Spritesheets gezeichnet
 - Versucht neue Spielmechaniken einzubauen
+
+Ferien
+
+- Npc skin verändert
+- Gameover Mechanik eingebaut
+- Website komplett angepasst
+- Präsentation vorbereitet
+- Level 04 eingebaut
+- Versucht Gameend scene einzubauen
+- Kleine Dinge wie Maps, tileset usw perfektioniert
