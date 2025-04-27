@@ -72,7 +72,8 @@ export default class Level01 extends Base2DScene {
       // Das Objekt ist von der Klasse `Mushroom`
       this.player.decreaseSpeed(100)
       this.player.damage(item.props.damageHp || 0)
-      this.cameras.main.shake(5000, 0.02)
+      this.cameras.main.shake(5000, 0.02) // Wenn man das Item mushroom (im spiel der kleine geist) berührt fängt die kamera an zu vibrieren. Die Zahl 5000 steht für 5000 millisekunden/5 sekunden, die Zahl 0.02 steht für die Intensität der vibrierung in prozent. 0.02 bedeutet, dass die Kamera sich um zwei prozent hin und her bewegt. Codeium Anfrage!
+
       // TODO: Aktivieren Sie das hier, wenn ein Effekt über eine gewisse Zeit
       // passieren soll.
       // Hier wird der Spieler halb so gross, und mit jedem Frame wird er wieder
@@ -100,6 +101,7 @@ export default class Level01 extends Base2DScene {
     super.update()
 
     if (this.player.hp <= 0) {
+      // Wenn Player 0 Leben hat, startet eine GameOver Szene
       this.scene.start("GameOverscene")
     }
   }
