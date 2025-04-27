@@ -8,6 +8,7 @@ import Level04 from "./scenes/levels/level-04.js"
 import UIScene from "./scenes/ui-scene.js"
 import DebugScene from "./scenes/debug-scene.js"
 import GameOverScene from "./scenes/Gameover-Scene.js"
+import GameendScene from "./scenes/Gameend-scene.js"
 
 const config = {
   type: Phaser.AUTO,
@@ -27,6 +28,7 @@ const config = {
     Level03,
     Level04,
     GameOverScene,
+    GameendScene,
   ], // In jedem Spiels, hier können noch weitere Szenen angehängt werden.
   physics: {
     default: "arcade",
