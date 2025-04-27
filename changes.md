@@ -24,6 +24,40 @@
 - Neue Spritesheets gezeichnet
 - Versucht neue Spielmechaniken einzubauen
 
+  31.03.25
+
+- Tileset angepasst
+
+  03.04.25
+
+- Tilset
+- Player skin verändert
+- Map angepasst
+
+  07.04.25
+
+- Level 02 angepasst
+- Kollision zwischen Player und Npc
+- Spielidee ein wenig verändert
+- Level 01, 02 verändert
+- Lebensmaximum auf 100 gesetzt
+
+  08.04.25
+
+- Player Fertiggestellt
+
+  09.04.25
+
+- Effekte eingefügt
+
+  10.04.25
+
+- Effekte eingefügt in Level
+
+  11.04.25
+
+  - Level 04 erstellt
+
 Ferien
 
 - Npc skin verändert
